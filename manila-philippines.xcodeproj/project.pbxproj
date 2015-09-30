@@ -14,6 +14,7 @@
 		F6DBECA41BBBB6F900A7CDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */; };
 		F6DBECAF1BBBB6F900A7CDF9 /* manila_philippinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBECAE1BBBB6F900A7CDF9 /* manila_philippinesTests.swift */; };
 		F6DBECBA1BBBB6F900A7CDF9 /* manila_philippinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBECB91BBBB6F900A7CDF9 /* manila_philippinesUITests.swift */; };
+		F6DBECC81BBBCC1000A7CDF9 /* aboutViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBECC71BBBCC1000A7CDF9 /* aboutViewContoller.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6DBECB51BBBB6F900A7CDF9 /* manila-philippinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "manila-philippinesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DBECB91BBBB6F900A7CDF9 /* manila_philippinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manila_philippinesUITests.swift; sourceTree = "<group>"; };
 		F6DBECBB1BBBB6F900A7CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DBECC71BBBCC1000A7CDF9 /* aboutViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutViewContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,11 @@
 		F6DBEC981BBBB6F900A7CDF9 /* manila-philippines */ = {
 			isa = PBXGroup;
 			children = (
-				F6DBEC991BBBB6F900A7CDF9 /* AppDelegate.swift */,
-				F6DBEC9B1BBBB6F900A7CDF9 /* ViewController.swift */,
-				F6DBEC9D1BBBB6F900A7CDF9 /* Main.storyboard */,
-				F6DBECA01BBBB6F900A7CDF9 /* Assets.xcassets */,
-				F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */,
-				F6DBECA51BBBB6F900A7CDF9 /* Info.plist */,
+				F6DBECCD1BBBCC4700A7CDF9 /* Miscellaneous */,
+				F6DBECCC1BBBCC3A00A7CDF9 /* Resources */,
+				F6DBECCB1BBBCC2400A7CDF9 /* Controller */,
+				F6DBECCA1BBBCC1B00A7CDF9 /* View */,
+				F6DBECC91BBBCC1500A7CDF9 /* Model */,
 			);
 			path = "manila-philippines";
 			sourceTree = "<group>";
@@ -123,6 +124,48 @@
 				F6DBECBB1BBBB6F900A7CDF9 /* Info.plist */,
 			);
 			path = "manila-philippinesUITests";
+			sourceTree = "<group>";
+		};
+		F6DBECC91BBBCC1500A7CDF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F6DBECCA1BBBCC1B00A7CDF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBEC9D1BBBB6F900A7CDF9 /* Main.storyboard */,
+				F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F6DBECCB1BBBCC2400A7CDF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBEC9B1BBBB6F900A7CDF9 /* ViewController.swift */,
+				F6DBECC71BBBCC1000A7CDF9 /* aboutViewContoller.swift */,
+				F6DBEC991BBBB6F900A7CDF9 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F6DBECCC1BBBCC3A00A7CDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBECA01BBBB6F900A7CDF9 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6DBECCD1BBBCC4700A7CDF9 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBECA51BBBB6F900A7CDF9 /* Info.plist */,
+			);
+			name = Miscellaneous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DBEC9C1BBBB6F900A7CDF9 /* ViewController.swift in Sources */,
+				F6DBECC81BBBCC1000A7CDF9 /* aboutViewContoller.swift in Sources */,
 				F6DBEC9A1BBBB6F900A7CDF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +527,7 @@
 				F6DBECC01BBBB6F900A7CDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6DBECC11BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +536,7 @@
 				F6DBECC31BBBB6F900A7CDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6DBECC41BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +545,7 @@
 				F6DBECC61BBBB6F900A7CDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
