@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="manila_philippines" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,288 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manila_water" translatesAutoresizingMaskIntoConstraints="NO" id="Glz-Hl-GxR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aey-4N-q6p">
+                                <rect key="frame" x="230" y="530" width="140" height="30"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.0" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="zjX-Us-Bdd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="find out more">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OcB-ql-ejA" kind="show" id="7qL-cI-Jho"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="g3S-sr-440">
+                                <rect key="frame" x="20" y="20" width="355" height="296"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="tNi-SA-IqQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="84"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUTDOOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snb-ed-uIA">
+                                                <rect key="frame" x="0.0" y="0.0" width="167" height="35"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADVENTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rz-Ee-CHJ">
+                                                <rect key="frame" x="0.0" y="25" width="167" height="35"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TROPICAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ejg-Kf-Xkt">
+                                                <rect key="frame" x="0.0" y="49" width="167" height="35"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-30" translatesAutoresizingMaskIntoConstraints="NO" id="jGM-Hm-1aH">
+                                        <rect key="frame" x="0.0" y="109" width="355" height="134"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MANILA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-32-9iw">
+                                                <rect key="frame" x="0.0" y="0.0" width="238" height="82"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="60"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHILIPPINES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAQ-bq-6r8">
+                                                <rect key="frame" x="0.0" y="52" width="355" height="82"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="60"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k24-8v-mqg">
+                                        <rect key="frame" x="0.0" y="268" width="86" height="28"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass44" translatesAutoresizingMaskIntoConstraints="NO" id="QzM-Yh-Sib">
+                                                <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="28" id="JeD-uv-Ezq"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="OHp-eM-Ifb"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-bH-Prh">
+                                                <rect key="frame" x="28" y="0.0" width="58" height="28"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Glz-Hl-GxR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0Wl-fO-K23"/>
+                            <constraint firstItem="Glz-Hl-GxR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AVM-WF-Psj"/>
+                            <constraint firstAttribute="trailing" secondItem="Glz-Hl-GxR" secondAttribute="trailing" id="JGs-pF-DKb"/>
+                            <constraint firstItem="g3S-sr-440" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QV7-5o-cUV"/>
+                            <constraint firstItem="Glz-Hl-GxR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="RI5-vR-LKA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Glz-Hl-GxR" secondAttribute="bottom" id="V7l-gx-iFJ"/>
+                            <constraint firstItem="aey-4N-q6p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k0l-hI-XqV"/>
+                            <constraint firstItem="g3S-sr-440" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="lX5-0j-Puj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aey-4N-q6p" secondAttribute="bottom" constant="40" id="pvK-k9-wcG"/>
+                            <constraint firstItem="Glz-Hl-GxR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="zEW-rO-vxt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RI5-vR-LKA"/>
+                                <exclude reference="zEW-rO-vxt"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="findOutMoreBtn" destination="aey-4N-q6p" id="GwN-fa-WiT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="305"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B1m-VE-O4q">
+            <objects>
+                <viewController id="OcB-ql-ejA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VGB-9a-I4a"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOL-pi-Zb3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ayl-g9-auY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="manila_skyline" translatesAutoresizingMaskIntoConstraints="NO" id="4m3-BB-uRx">
+                                <rect key="frame" x="-85" y="0.0" width="745" height="184"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="enW-8z-D5d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT MANILA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8D-Qa-4H2">
+                                <rect key="frame" x="203" y="20" width="194" height="34.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhm-zp-McM">
+                                <rect key="frame" x="20" y="20" width="49" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ME7-3G-rxM"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HMB-gI-GyN">
+                                <rect key="frame" x="20" y="192" width="560" height="410"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-zn-hRT">
+                                        <rect key="frame" x="0.0" y="0.0" width="161" height="152"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAt-9D-obs">
+                                                <rect key="frame" x="0.0" y="0.0" width="161" height="76"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="0.51372549019607838" green="0.60784313725490191" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="widthClass=regular" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="161" height="189"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="225" height="64"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1,652,171" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjR-0o-uKl">
+                                                <rect key="frame" x="0.0" y="76" width="161" height="76"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                                <color key="textColor" red="0.50588235294117645" green="0.54509803921568623" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="widthClass=regular" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="189" width="161" height="28"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                                    <rect key="frame" x="0.0" y="54" width="225" height="51"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <variation key="widthClass=regular" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="161" height="217"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES" spacing="-10">
+                                            <rect key="frame" x="0.0" y="0.0" width="225" height="105"/>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2X4-B0-bKf">
+                                        <rect key="frame" x="0.0" y="177" width="557" height="233"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSn-UY-Vmh">
+                                                <rect key="frame" x="0.0" y="0.0" width="557" height="35"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                <color key="textColor" red="0.51372549020000002" green="0.60784313729999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="widthClass=regular" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="747" height="35"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFb-iH-WAb">
+                                                <rect key="frame" x="0.0" y="35" width="557" height="199"/>
+                                                <mutableString key="text">Manila demonsrates the capital city of the Philippines. As one of the sixteen cities which, along with the municipality of Pateros, it comprises Metro Manila, the National Capital Region.
+
+It sits on the eastern shore of Manila Bay, bordered by the cities of Navotas and Caloocan to the north; Quezon City and San Juan to the northeast; Mandaluyong to the east; Makati to the southeast, and Pasay to the south. It has a total population of 1,652,171 making it the second most populous city in the Philippines, behind Quezon City. The populace inhabit a land area of only 2,498 hectares, making Manila arguably the most densely populated city in the world.</mutableString>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                                <color key="textColor" red="0.50588235290000005" green="0.5450980392" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="widthClass=regular" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="35" width="747" height="134"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="24"/>
+                                                    <rect key="frame" x="0.0" y="44" width="760" height="472"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="VFb-iH-WAb" secondAttribute="trailing" id="1CH-Le-Uqe"/>
+                                            <constraint firstItem="VFb-iH-WAb" firstAttribute="top" secondItem="sSn-UY-Vmh" secondAttribute="bottom" id="PXO-0n-sEO"/>
+                                            <constraint firstItem="VFb-iH-WAb" firstAttribute="leading" secondItem="2X4-B0-bKf" secondAttribute="leading" id="iow-L9-jUS"/>
+                                            <constraint firstAttribute="trailing" secondItem="VFb-iH-WAb" secondAttribute="trailing" id="mtS-2a-Zve"/>
+                                            <constraint firstAttribute="bottom" secondItem="VFb-iH-WAb" secondAttribute="bottom" id="s1g-Ue-PIh"/>
+                                            <constraint firstItem="VFb-iH-WAb" firstAttribute="leading" secondItem="2X4-B0-bKf" secondAttribute="leading" id="vxG-iN-2Mb"/>
+                                        </constraints>
+                                        <variation key="widthClass=regular" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="242" width="747" height="169"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular" distribution="fillProportionally" misplaced="YES" spacing="-20">
+                                            <rect key="frame" x="0.0" y="95" width="760" height="515"/>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=regular-widthClass=regular" distribution="fillProportionally" spacing="-10"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HMB-gI-GyN" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leadingMargin" id="4aC-gW-GCa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HMB-gI-GyN" secondAttribute="trailing" id="6ID-Fu-mDK"/>
+                            <constraint firstItem="k8D-Qa-4H2" firstAttribute="top" secondItem="VGB-9a-I4a" secondAttribute="bottom" id="Hfe-bi-fgc"/>
+                            <constraint firstItem="bhm-zp-McM" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leadingMargin" id="JRN-5U-NuV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4m3-BB-uRx" secondAttribute="trailing" id="Jjh-Op-pzU"/>
+                            <constraint firstAttribute="trailing" secondItem="4m3-BB-uRx" secondAttribute="trailing" id="Q63-kT-rRy"/>
+                            <constraint firstItem="HMB-gI-GyN" firstAttribute="top" secondItem="4m3-BB-uRx" secondAttribute="bottom" constant="10" id="Sdl-IW-ETN"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leadingMargin" id="WZJ-Gl-HjV"/>
+                            <constraint firstItem="k8D-Qa-4H2" firstAttribute="centerX" secondItem="Ayl-g9-auY" secondAttribute="centerX" id="cwo-cz-xiP"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leadingMargin" constant="-105" id="d2J-5H-bhq"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="top" secondItem="Ayl-g9-auY" secondAttribute="top" id="dgK-0Y-O2W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4m3-BB-uRx" secondAttribute="trailing" constant="-80" id="hNc-B9-AWR"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leading" constant="145" id="iMn-F3-M9w"/>
+                            <constraint firstItem="bhm-zp-McM" firstAttribute="top" secondItem="VGB-9a-I4a" secondAttribute="bottom" id="iTR-yG-xgS"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="top" secondItem="Ayl-g9-auY" secondAttribute="topMargin" id="pM0-xT-m97"/>
+                            <constraint firstItem="cOL-pi-Zb3" firstAttribute="top" secondItem="HMB-gI-GyN" secondAttribute="bottom" id="qzD-YR-l9n"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="top" secondItem="Ayl-g9-auY" secondAttribute="topMargin" id="u7p-If-Lm5"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="top" secondItem="Ayl-g9-auY" secondAttribute="top" id="ve8-ly-ean"/>
+                            <constraint firstAttribute="trailing" secondItem="4m3-BB-uRx" secondAttribute="trailing" id="wuC-Gn-w81"/>
+                            <constraint firstItem="4m3-BB-uRx" firstAttribute="leading" secondItem="Ayl-g9-auY" secondAttribute="leading" id="yyv-tj-tII"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jjh-Op-pzU"/>
+                                <exclude reference="Q63-kT-rRy"/>
+                                <exclude reference="WZJ-Gl-HjV"/>
+                                <exclude reference="dgK-0Y-O2W"/>
+                                <exclude reference="iMn-F3-M9w"/>
+                                <exclude reference="pM0-xT-m97"/>
+                                <exclude reference="ve8-ly-ean"/>
+                                <exclude reference="wuC-Gn-w81"/>
+                                <exclude reference="yyv-tj-tII"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PrQ-AQ-gJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971" y="300"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="compass44" width="128" height="128"/>
+        <image name="manila_skyline" width="2000" height="428"/>
+        <image name="manila_water" width="3000" height="2000"/>
+    </resources>
 </document>
