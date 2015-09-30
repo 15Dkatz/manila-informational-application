@@ -161,13 +161,23 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ME7-3G-rxM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWI-b8-gkS">
+                                <rect key="frame" x="531" y="20" width="49" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="photos">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RAm-U2-JlO" kind="show" id="zmL-zQ-8JZ"/>
+                                </connections>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HMB-gI-GyN">
                                 <rect key="frame" x="20" y="192" width="560" height="410"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-zn-hRT">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-zn-hRT">
                                         <rect key="frame" x="0.0" y="0.0" width="161" height="152"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAt-9D-obs">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAt-9D-obs">
                                                 <rect key="frame" x="0.0" y="0.0" width="161" height="76"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                                 <color key="textColor" red="0.51372549019607838" green="0.60784313725490191" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
@@ -180,7 +190,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="225" height="64"/>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1,652,171" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjR-0o-uKl">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,652,171" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjR-0o-uKl">
                                                 <rect key="frame" x="0.0" y="76" width="161" height="76"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                                 <color key="textColor" red="0.50588235294117645" green="0.54509803921568623" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
@@ -201,11 +211,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="225" height="105"/>
                                         </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2X4-B0-bKf">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2X4-B0-bKf">
                                         <rect key="frame" x="0.0" y="177" width="557" height="233"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSn-UY-Vmh">
-                                                <rect key="frame" x="0.0" y="0.0" width="557" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSn-UY-Vmh">
+                                                <rect key="frame" x="0.0" y="0.0" width="557" height="42"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                                 <color key="textColor" red="0.51372549020000002" green="0.60784313729999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -217,7 +227,7 @@
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFb-iH-WAb">
-                                                <rect key="frame" x="0.0" y="35" width="557" height="199"/>
+                                                <rect key="frame" x="0.0" y="42" width="557" height="192"/>
                                                 <mutableString key="text">Manila demonsrates the capital city of the Philippines. As one of the sixteen cities which, along with the municipality of Pateros, it comprises Metro Manila, the National Capital Region.
 
 It sits on the eastern shore of Manila Bay, bordered by the cities of Navotas and Caloocan to the north; Quezon City and San Juan to the northeast; Mandaluyong to the east; Makati to the southeast, and Pasay to the south. It has a total population of 1,652,171 making it the second most populous city in the Philippines, behind Quezon City. The populace inhabit a land area of only 2,498 hectares, making Manila arguably the most densely populated city in the world.</mutableString>
@@ -294,10 +304,86 @@ It sits on the eastern shore of Manila Bay, bordered by the cities of Navotas an
             </objects>
             <point key="canvasLocation" x="971" y="300"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jnx-G3-7WK">
+            <objects>
+                <viewController id="RAm-U2-JlO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Kn-uR-wNi"/>
+                        <viewControllerLayoutGuide type="bottom" id="lyv-3g-Wns"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oAY-WY-VrW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2US-qz-eEM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Caj-i2-Dbn">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="187"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manilaG1" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-a9-cYb">
+                                                <rect key="frame" x="0.0" y="0.0" width="295" height="187"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manilaG2" translatesAutoresizingMaskIntoConstraints="NO" id="U7V-LK-s6J">
+                                                <rect key="frame" x="305" y="0.0" width="295" height="187"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="S1t-cR-Gi8">
+                                        <rect key="frame" x="0.0" y="197" width="600" height="187"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manilaG3" translatesAutoresizingMaskIntoConstraints="NO" id="yzm-Sq-wic">
+                                                <rect key="frame" x="0.0" y="0.0" width="295" height="187"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manilaG4" translatesAutoresizingMaskIntoConstraints="NO" id="cMm-vX-OuC">
+                                                <rect key="frame" x="305" y="0.0" width="295" height="187"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manilaG5" translatesAutoresizingMaskIntoConstraints="NO" id="LYo-Ef-y8w">
+                                        <rect key="frame" x="0.0" y="394" width="600" height="187"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCx-Be-0vi">
+                                <rect key="frame" x="20" y="20" width="49" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="home">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="E2U-Hq-iRl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2US-qz-eEM" firstAttribute="top" secondItem="1Kn-uR-wNi" secondAttribute="bottom" id="9Rh-4B-Io3"/>
+                            <constraint firstAttribute="bottom" secondItem="2US-qz-eEM" secondAttribute="bottom" id="Aoc-L8-NbQ"/>
+                            <constraint firstAttribute="trailing" secondItem="2US-qz-eEM" secondAttribute="trailing" id="lIw-CD-fEK"/>
+                            <constraint firstItem="2US-qz-eEM" firstAttribute="leading" secondItem="oAY-WY-VrW" secondAttribute="leading" id="tWP-YF-GKk"/>
+                            <constraint firstItem="CCx-Be-0vi" firstAttribute="top" secondItem="1Kn-uR-wNi" secondAttribute="bottom" id="uy8-m6-FsE"/>
+                            <constraint firstItem="CCx-Be-0vi" firstAttribute="leading" secondItem="oAY-WY-VrW" secondAttribute="leadingMargin" id="zFc-p4-2Uy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkm-e4-NJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1596" y="300"/>
+        </scene>
     </scenes>
     <resources>
         <image name="compass44" width="128" height="128"/>
+        <image name="manilaG1" width="3666" height="2444"/>
+        <image name="manilaG2" width="800" height="503"/>
+        <image name="manilaG3" width="3726" height="2313"/>
+        <image name="manilaG4" width="1944" height="2592"/>
+        <image name="manilaG5" width="3264" height="2448"/>
         <image name="manila_skyline" width="2000" height="428"/>
         <image name="manila_water" width="3000" height="2000"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="E2U-Hq-iRl"/>
+    </inferredMetricsTieBreakers>
 </document>
