@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6DBEC9A1BBBB6F900A7CDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBEC991BBBB6F900A7CDF9 /* AppDelegate.swift */; };
+		F6DBEC9C1BBBB6F900A7CDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBEC9B1BBBB6F900A7CDF9 /* ViewController.swift */; };
+		F6DBEC9F1BBBB6F900A7CDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DBEC9D1BBBB6F900A7CDF9 /* Main.storyboard */; };
+		F6DBECA11BBBB6F900A7CDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DBECA01BBBB6F900A7CDF9 /* Assets.xcassets */; };
+		F6DBECA41BBBB6F900A7CDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */; };
+		F6DBECAF1BBBB6F900A7CDF9 /* manila_philippinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBECAE1BBBB6F900A7CDF9 /* manila_philippinesTests.swift */; };
+		F6DBECBA1BBBB6F900A7CDF9 /* manila_philippinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DBECB91BBBB6F900A7CDF9 /* manila_philippinesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6DBECAB1BBBB6F900A7CDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DBEC8E1BBBB6F900A7CDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DBEC951BBBB6F900A7CDF9;
+			remoteInfo = "manila-philippines";
+		};
+		F6DBECB61BBBB6F900A7CDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DBEC8E1BBBB6F900A7CDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DBEC951BBBB6F900A7CDF9;
+			remoteInfo = "manila-philippines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6DBEC961BBBB6F900A7CDF9 /* manila-philippines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "manila-philippines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DBEC991BBBB6F900A7CDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DBEC9B1BBBB6F900A7CDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DBEC9E1BBBB6F900A7CDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6DBECA01BBBB6F900A7CDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6DBECA31BBBB6F900A7CDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6DBECA51BBBB6F900A7CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DBECAA1BBBB6F900A7CDF9 /* manila-philippinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "manila-philippinesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DBECAE1BBBB6F900A7CDF9 /* manila_philippinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manila_philippinesTests.swift; sourceTree = "<group>"; };
+		F6DBECB01BBBB6F900A7CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DBECB51BBBB6F900A7CDF9 /* manila-philippinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "manila-philippinesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DBECB91BBBB6F900A7CDF9 /* manila_philippinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manila_philippinesUITests.swift; sourceTree = "<group>"; };
+		F6DBECBB1BBBB6F900A7CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DBEC931BBBB6F900A7CDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECA71BBBB6F900A7CDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECB21BBBB6F900A7CDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6DBEC8D1BBBB6F900A7CDF9 = {
+			isa = PBXGroup;
+			children = (
+				F6DBEC981BBBB6F900A7CDF9 /* manila-philippines */,
+				F6DBECAD1BBBB6F900A7CDF9 /* manila-philippinesTests */,
+				F6DBECB81BBBB6F900A7CDF9 /* manila-philippinesUITests */,
+				F6DBEC971BBBB6F900A7CDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DBEC971BBBB6F900A7CDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBEC961BBBB6F900A7CDF9 /* manila-philippines.app */,
+				F6DBECAA1BBBB6F900A7CDF9 /* manila-philippinesTests.xctest */,
+				F6DBECB51BBBB6F900A7CDF9 /* manila-philippinesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DBEC981BBBB6F900A7CDF9 /* manila-philippines */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBEC991BBBB6F900A7CDF9 /* AppDelegate.swift */,
+				F6DBEC9B1BBBB6F900A7CDF9 /* ViewController.swift */,
+				F6DBEC9D1BBBB6F900A7CDF9 /* Main.storyboard */,
+				F6DBECA01BBBB6F900A7CDF9 /* Assets.xcassets */,
+				F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */,
+				F6DBECA51BBBB6F900A7CDF9 /* Info.plist */,
+			);
+			path = "manila-philippines";
+			sourceTree = "<group>";
+		};
+		F6DBECAD1BBBB6F900A7CDF9 /* manila-philippinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBECAE1BBBB6F900A7CDF9 /* manila_philippinesTests.swift */,
+				F6DBECB01BBBB6F900A7CDF9 /* Info.plist */,
+			);
+			path = "manila-philippinesTests";
+			sourceTree = "<group>";
+		};
+		F6DBECB81BBBB6F900A7CDF9 /* manila-philippinesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DBECB91BBBB6F900A7CDF9 /* manila_philippinesUITests.swift */,
+				F6DBECBB1BBBB6F900A7CDF9 /* Info.plist */,
+			);
+			path = "manila-philippinesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DBEC951BBBB6F900A7CDF9 /* manila-philippines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DBECBE1BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippines" */;
+			buildPhases = (
+				F6DBEC921BBBB6F900A7CDF9 /* Sources */,
+				F6DBEC931BBBB6F900A7CDF9 /* Frameworks */,
+				F6DBEC941BBBB6F900A7CDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "manila-philippines";
+			productName = "manila-philippines";
+			productReference = F6DBEC961BBBB6F900A7CDF9 /* manila-philippines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6DBECA91BBBB6F900A7CDF9 /* manila-philippinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DBECC11BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesTests" */;
+			buildPhases = (
+				F6DBECA61BBBB6F900A7CDF9 /* Sources */,
+				F6DBECA71BBBB6F900A7CDF9 /* Frameworks */,
+				F6DBECA81BBBB6F900A7CDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DBECAC1BBBB6F900A7CDF9 /* PBXTargetDependency */,
+			);
+			name = "manila-philippinesTests";
+			productName = "manila-philippinesTests";
+			productReference = F6DBECAA1BBBB6F900A7CDF9 /* manila-philippinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6DBECB41BBBB6F900A7CDF9 /* manila-philippinesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DBECC41BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesUITests" */;
+			buildPhases = (
+				F6DBECB11BBBB6F900A7CDF9 /* Sources */,
+				F6DBECB21BBBB6F900A7CDF9 /* Frameworks */,
+				F6DBECB31BBBB6F900A7CDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DBECB71BBBB6F900A7CDF9 /* PBXTargetDependency */,
+			);
+			name = "manila-philippinesUITests";
+			productName = "manila-philippinesUITests";
+			productReference = F6DBECB51BBBB6F900A7CDF9 /* manila-philippinesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DBEC8E1BBBB6F900A7CDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = davidkatz;
+				TargetAttributes = {
+					F6DBEC951BBBB6F900A7CDF9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F6DBECA91BBBB6F900A7CDF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6DBEC951BBBB6F900A7CDF9;
+					};
+					F6DBECB41BBBB6F900A7CDF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F6DBEC951BBBB6F900A7CDF9;
+					};
+				};
+			};
+			buildConfigurationList = F6DBEC911BBBB6F900A7CDF9 /* Build configuration list for PBXProject "manila-philippines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DBEC8D1BBBB6F900A7CDF9;
+			productRefGroup = F6DBEC971BBBB6F900A7CDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DBEC951BBBB6F900A7CDF9 /* manila-philippines */,
+				F6DBECA91BBBB6F900A7CDF9 /* manila-philippinesTests */,
+				F6DBECB41BBBB6F900A7CDF9 /* manila-philippinesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DBEC941BBBB6F900A7CDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DBECA41BBBB6F900A7CDF9 /* LaunchScreen.storyboard in Resources */,
+				F6DBECA11BBBB6F900A7CDF9 /* Assets.xcassets in Resources */,
+				F6DBEC9F1BBBB6F900A7CDF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECA81BBBB6F900A7CDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECB31BBBB6F900A7CDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DBEC921BBBB6F900A7CDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DBEC9C1BBBB6F900A7CDF9 /* ViewController.swift in Sources */,
+				F6DBEC9A1BBBB6F900A7CDF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECA61BBBB6F900A7CDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DBECAF1BBBB6F900A7CDF9 /* manila_philippinesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DBECB11BBBB6F900A7CDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DBECBA1BBBB6F900A7CDF9 /* manila_philippinesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6DBECAC1BBBB6F900A7CDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DBEC951BBBB6F900A7CDF9 /* manila-philippines */;
+			targetProxy = F6DBECAB1BBBB6F900A7CDF9 /* PBXContainerItemProxy */;
+		};
+		F6DBECB71BBBB6F900A7CDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DBEC951BBBB6F900A7CDF9 /* manila-philippines */;
+			targetProxy = F6DBECB61BBBB6F900A7CDF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6DBEC9D1BBBB6F900A7CDF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DBEC9E1BBBB6F900A7CDF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6DBECA21BBBB6F900A7CDF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DBECA31BBBB6F900A7CDF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DBECBC1BBBB6F900A7CDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6DBECBD1BBBB6F900A7CDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DBECBF1BBBB6F900A7CDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "manila-philippines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6DBECC01BBBB6F900A7CDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "manila-philippines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6DBECC21BBBB6F900A7CDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "manila-philippinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/manila-philippines.app/manila-philippines";
+			};
+			name = Debug;
+		};
+		F6DBECC31BBBB6F900A7CDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "manila-philippinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/manila-philippines.app/manila-philippines";
+			};
+			name = Release;
+		};
+		F6DBECC51BBBB6F900A7CDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "manila-philippinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "manila-philippines";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F6DBECC61BBBB6F900A7CDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "manila-philippinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.manila-philippinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "manila-philippines";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DBEC911BBBB6F900A7CDF9 /* Build configuration list for PBXProject "manila-philippines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DBECBC1BBBB6F900A7CDF9 /* Debug */,
+				F6DBECBD1BBBB6F900A7CDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DBECBE1BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DBECBF1BBBB6F900A7CDF9 /* Debug */,
+				F6DBECC01BBBB6F900A7CDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6DBECC11BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DBECC21BBBB6F900A7CDF9 /* Debug */,
+				F6DBECC31BBBB6F900A7CDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6DBECC41BBBB6F900A7CDF9 /* Build configuration list for PBXNativeTarget "manila-philippinesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DBECC51BBBB6F900A7CDF9 /* Debug */,
+				F6DBECC61BBBB6F900A7CDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DBEC8E1BBBB6F900A7CDF9 /* Project object */;
+}
